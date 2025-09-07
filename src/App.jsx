@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Navbar from "./Navbar";
 import {
   FaReact,
   FaNodeJs,
@@ -14,6 +15,7 @@ import {
   SiCss3,
   SiVite,
 } from "react-icons/si";
+
 
 export default function App() {
   const sendEmail = async (e) => {
@@ -109,26 +111,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-animated text-gray-800">
       {/* Header */}
-      <header className="p-6 flex justify-between items-center shadow-md bg-white sticky top-0 z-50">
-        <h1 className="text-2xl font-bold">Aditya Shankar</h1>
-        <nav className="space-x-6">
-          <a href="#home" className="hover:text-blue-600">
-            Home
-          </a>
-          <a href="#about" className="hover:text-blue-600">
-            About
-          </a>
-          <a href="#skills" className="hover:text-blue-600">
-            Skills
-          </a>
-          <a href="#projects" className="hover:text-blue-600">
-            Projects
-          </a>
-          <a href="#contact" className="hover:text-blue-600">
-            Contact
-          </a>
-        </nav>
-      </header>
+      <Navbar />
 
       {/* Hero Section */}
       <section
