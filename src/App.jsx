@@ -89,15 +89,15 @@ export default function App() {
       title: "Gym Product Website",
       desc: "Built with React + Vite, focusing on fast performance and responsive UI.",
       image: "/gym-project.png",
-      demo: "#",
-      code: "#",
+      demo: "https://adi-8789.github.io/Gym-Product-website/",
+      code: "https://github.com/Adi-8789/Gym-Product-website.git",
     },
     {
-      title: "User-Hive Webpage",
-      desc: "MERN-based CRUD app with responsive design.",
+      title: "Product Showcase Website",
+      desc: "Responsive design & clean UI.",
       image: "/user-hive.png",
-      demo: "#",
-      code: "#",
+      demo: "http://stellar-precision.vercel.app",
+      code: "https://github.com/Adi-8789/stellar-precision.git",
     },
     {
       title: "Valorant Website Clone",
@@ -119,7 +119,7 @@ export default function App() {
         className="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-r from-blue-100 to-white"
       >
         <motion.img
-          src="/profile-placeholder.png"
+          src="/public/1757336377383.jpeg"
           alt="Aditya Shankar"
           className="w-32 h-32 rounded-full mb-6 border-4 border-blue-600"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -144,7 +144,7 @@ export default function App() {
         </motion.p>
         <div className="space-x-4">
           <a
-            href="/Aditya_Shankar_Resume_MERN.pdf"
+            href="/public/ResumeLT.pdf"
             download
             className="px-6 py-3 bg-blue-600 text-white rounded-2xl shadow hover:bg-blue-700"
           >
