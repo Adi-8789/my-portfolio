@@ -119,8 +119,8 @@ export default function App() {
         className="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-r from-blue-100 to-white"
       >
         <motion.img
-          src="/public/1757336377383.jpeg"
-          alt="Aditya Shankar"
+          src="Profile.jpg.jpeg"
+          alt="Profile"
           className="w-32 h-32 rounded-full mb-6 border-4 border-blue-600"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
